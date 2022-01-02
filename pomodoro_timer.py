@@ -23,7 +23,7 @@ if __name__ == '__main__':
         timer() # default 25 minutes
     # play a beep sound
     mixer.init()
-    sound = mixer.Sound('bell.wav')
+    sound = mixer.Sound('./small-bell-ring-01a.wav') ### From https://www.soundjay.com/bell-sound-effect.html
     sound.play()
     print(f"Congratulations, You did {args.minutes} minutes of focused work!!!")
     
